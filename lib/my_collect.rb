@@ -3,5 +3,5 @@ def my_collect(arg)
   return_arg = []
   while counter < arg
     new_ = yield arg[counter]
-    
+
 end
