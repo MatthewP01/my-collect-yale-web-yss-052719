@@ -3,8 +3,7 @@ def my_collect(argum)
   return_arg = []
   while counter < argum.length
     counter += 1
-    new_ = yield argum[counter]
-    return_arg << new_
+    return_arg << yield argum[counter]
   end
   return return_arg
 end
