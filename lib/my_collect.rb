@@ -4,4 +4,6 @@ def my_collect(arg)
   while counter < arg
     new_ = yield arg[counter]
     return_arg << new_
+  end
+  
 end
