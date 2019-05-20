@@ -5,5 +5,5 @@ def my_collect(argum)
     counter += 1
     return_arg << yield argum[counter]
   end
-  return_arg
+  return return_arg
 end
