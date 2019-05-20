@@ -1,7 +1,7 @@
 def my_collect(argum)
   counter = 0
   return_arg = []
-  while counter < arg.length
+  while counter < argum.length
     counter += 1
     return_arg << yield arg[counter]
   end
