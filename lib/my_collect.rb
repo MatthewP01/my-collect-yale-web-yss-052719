@@ -1,4 +1,4 @@
-def my_collect(arg)
+def my_collect(argum)
   counter = 0
   return_arg = []
   while counter < arg.length
